@@ -1,0 +1,37 @@
+{
+  "name": "hologram-night-theme",
+  "displayName": "Hologram Night Theme",
+  "description": "深暗青蓝，极简专注的赛博朋克主题。",
+  "version": "0.0.1",
+  "publisher": "orcheink",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "theme",
+    "color-theme"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1c1e27",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OrcheInk/vscode-theme-hologram-night"
+  },
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hologram Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hologram-night-color-theme.json"
+      }
+    ]
+  }
+}
